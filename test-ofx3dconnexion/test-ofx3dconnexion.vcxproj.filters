@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofx3dconnexion\src\ofx3Dconnexion.cpp">
+      <Filter>addons\ofx3dconnexion\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{d8067838-2333-47cc-8564-430519dacff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofx3dconnexion">
+      <UniqueIdentifier>{8c0ba454-f623-4873-b9e0-e0ed4fc04717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofx3dconnexion\src">
+      <UniqueIdentifier>{7d41ab72-3943-46b6-9adb-6d010662c809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofx3dconnexion\include">
+      <UniqueIdentifier>{c2339c1e-9029-4e4a-8d2e-945b87f31eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofx3dconnexion\libs">
+      <UniqueIdentifier>{e1c7c7c3-a061-47d6-956f-b0c5430ba2fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofx3dconnexion\libs\3DxWare SDK">
+      <UniqueIdentifier>{0f68d6f5-325c-487a-af69-132225e369b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofx3dconnexion\libs\3DxWare SDK\include">
+      <UniqueIdentifier>{158330d5-62cd-4fd9-bc24-f57fc90080ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofx3dconnexion\include\ofx3Dconnexion.h">
+      <Filter>addons\ofx3dconnexion\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofx3dconnexion\libs\3DxWare SDK\include\3DxWareVersionNumbers.h">
+      <Filter>addons\ofx3dconnexion\libs\3DxWare SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofx3dconnexion\libs\3DxWare SDK\include\si.h">
+      <Filter>addons\ofx3dconnexion\libs\3DxWare SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofx3dconnexion\libs\3DxWare SDK\include\siapp.h">
+      <Filter>addons\ofx3dconnexion\libs\3DxWare SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofx3dconnexion\libs\3DxWare SDK\include\siappcmd.h">
+      <Filter>addons\ofx3dconnexion\libs\3DxWare SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofx3dconnexion\libs\3DxWare SDK\include\siappcmd_types.h">
+      <Filter>addons\ofx3dconnexion\libs\3DxWare SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofx3dconnexion\libs\3DxWare SDK\include\SiCfg.h">
+      <Filter>addons\ofx3dconnexion\libs\3DxWare SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofx3dconnexion\libs\3DxWare SDK\include\siDefines.h">
+      <Filter>addons\ofx3dconnexion\libs\3DxWare SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofx3dconnexion\libs\3DxWare SDK\include\siSync.h">
+      <Filter>addons\ofx3dconnexion\libs\3DxWare SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofx3dconnexion\libs\3DxWare SDK\include\siSyncDefines.h">
+      <Filter>addons\ofx3dconnexion\libs\3DxWare SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofx3dconnexion\libs\3DxWare SDK\include\siSyncPriv.h">
+      <Filter>addons\ofx3dconnexion\libs\3DxWare SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofx3dconnexion\libs\3DxWare SDK\include\spwdata.h">
+      <Filter>addons\ofx3dconnexion\libs\3DxWare SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofx3dconnexion\libs\3DxWare SDK\include\spwerror.h">
+      <Filter>addons\ofx3dconnexion\libs\3DxWare SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofx3dconnexion\libs\3DxWare SDK\include\spwmacro.h">
+      <Filter>addons\ofx3dconnexion\libs\3DxWare SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofx3dconnexion\libs\3DxWare SDK\include\spwmath.h">
+      <Filter>addons\ofx3dconnexion\libs\3DxWare SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofx3dconnexion\libs\3DxWare SDK\include\V3DCMD.h">
+      <Filter>addons\ofx3dconnexion\libs\3DxWare SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofx3dconnexion\libs\3DxWare SDK\include\V3DKey.h">
+      <Filter>addons\ofx3dconnexion\libs\3DxWare SDK\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofx3dconnexion\libs\3DxWare SDK\include\virtualkeys.hpp">
+      <Filter>addons\ofx3dconnexion\libs\3DxWare SDK\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
